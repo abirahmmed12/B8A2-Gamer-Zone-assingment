@@ -96,10 +96,11 @@ background: rgba(11, 2, 35, 0.10)
 .banner-container{
  
     max-width: 1400px;
+    margin: auto;
   
     display: flex;
     gap: 5px;
-    margin: auto;
+    
    
     
   }
@@ -207,11 +208,10 @@ bottom: 120px;
     .nav-logo-container {
         justify-content: center;
     }
-    .banner{
-        margin: auto;
-    }
+    
     .banner-container{
         flex-direction: column-reverse;
+        align-items: center;
       
        
         }
@@ -220,11 +220,12 @@ bottom: 120px;
 
   
   .banner-left {
-   width: 350px;
+   width: 345px;
+  margin-left: 28px;
    
    
     
-    margin:150px 50px 0 auto;
+    margin-top: 120px;
    background-size: 350px 400px;
    position: relative;
   
@@ -232,10 +233,14 @@ bottom: 120px;
   
     }
     .banner-img {
-        width: 300px;
+      width: 250px;
+     
+       height: 50px;
         height: 300px;
-        margin-left: 90px;
-        margin-top: 20px
+       margin-left: -7px;
+       
+       
+        
        
       ;
        
