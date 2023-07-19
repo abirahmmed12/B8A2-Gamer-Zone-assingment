@@ -3,15 +3,16 @@
 font-family: 'Poppins', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
-.nav{ background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
    
        
         
    
-}
+
 .nav-container{
     max-width: 1400px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
   
   
     min-height: 80px;
@@ -206,18 +207,59 @@ bottom: 120px;
     .nav-logo-container {
         justify-content: center;
     }
-    .banner-container{
-        flex-direction: column;
-
+    .banner{
+        margin: auto;
     }
-    .banner-left {
-        width: 469px;
-  }
+    .banner-container{
+        flex-direction: column-reverse;
+      
+       
+        }
+    
+       
+
+  
+  .banner-left {
+   width: 350px;
+   
+   
+    
+    margin:150px 50px 0 auto;
+   background-size: 350px 400px;
+   position: relative;
+  
+  
+  
+    }
+    .banner-img {
+        width: 300px;
+        height: 300px;
+        margin-left: 90px;
+        margin-top: 20px
+       
+      ;
+       
+    }
+    .banner-text1 {
+        color: #0B0223;
+        font-size: 20px;
+        
+    }
+    .banner-text2 {
+        font-size: 50px;
+       padding-top: 20px;
+       padding-bottom: 15px;
+    }
 }
+
+    
+   
+
   /* tablet */
   @media screen and (min-width: 576px) and (max-width: 960px){
     .nav-container {
        
   }
+}
   
   
