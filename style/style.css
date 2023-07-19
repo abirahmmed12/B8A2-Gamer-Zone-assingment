@@ -1,0 +1,99 @@
+*body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.nav{
+   
+}
+.nav-container{
+  
+    max-width: 1400px;
+    min-height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    ma
+
+ 
+}
+.nav-btn-container{
+    display: flex;
+    align-items: center;
+   
+}
+.nav-btn-container a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #3C354F;
+
+
+font-size: 18px;
+
+font-weight: 500;
+
+}
+.nav-logo-container{
+    display: flex;
+    gap: 15px;
+    margin-left: 10px;
+  
+}
+
+.nav-logo{
+    width: 60px;
+    object-fit: contain;
+    
+   
+}
+.logo-title{
+    font-size: 34px;
+font-style: normal;
+font-weight: 700;
+
+
+}
+.pimary-color{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.yt-tiktok-container{
+   
+    width: 190px;
+    height: 30px;
+
+margin-left : 20px;
+margin-right: 20px;
+padding: 8px;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10)
+
+
+}
+.yt{
+    max-width: 20%;
+}
+.tiktok{
+    max-width: 15%;
+}
+.yt-tiktok-container{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+/* responsive part of navigation */
+@media screen and (max-width: 576px) {
+    .nav-container {
+      flex-direction: column;
+    }
+    .nav-btn-container {
+        flex-direction: column;
+    }
+    .nav-logo-container {
+        justify-content: center;
+    }
+  }
+  
