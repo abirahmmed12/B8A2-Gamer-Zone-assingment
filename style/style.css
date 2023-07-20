@@ -276,14 +276,91 @@ position: relative;
 bottom: 20px;
  
 }
-   
+.fourth-part{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.cards-container{
+  max-width: 1400px;
+  margin: auto;
+ 
+ 
+
+}
+.fourth-part-heading{
+  text-align: center;
+
+}
+.fourth-prth1{
+  font-size: 40px;
+
+font-weight: 700;
+line-height: normal;
+
+}
+.fourth-prth1-clr{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+}
+.card-container{
+  position: relative;
+  width: 18%;
+}
+
+.card {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.hover-contnt{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card-container:hover .card {
+  filter: brightness(30%);
+
+}
+
+.card-container:hover .hover-contnt {
+  opacity: 1;
+ 
+}
+
+.text {
+  background-color: #ca1b1b;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 10px 30px;
+}
+
+
+
+
+
+
+
  
 
 
 /* responsive part of navigation */
 /* mobile */
 @media screen and (max-width: 576px) {
-    html,body {
+    html, body {
       width: 100%;
       height: 100%;
       margin: 0;
@@ -367,11 +444,16 @@ bottom: 20px;
   text-align: center;
   width: 100%;
 }
+.funny-videotxt{
+  color: #F948B2;
+  
+}
 .banner-heading1 {
-  font-size: 40px;
+  font-size: 35px;
 
 
 }
+.
 .banner-heading2{
   font-size: 17px;
   font-weight: 100px;
@@ -381,11 +463,30 @@ bottom: 20px;
   font-size: 20px;
   line-height: 15px;
 }
+ .fourth-part{
+  flex-direction: column;
+  padding-left: 45px;
+  ;
 
-
+ }
+ .fourth-prth1{
+  font-size: 20px;
+  
+ }
+ .fourth-paragraph{
+  width: 350px;
+  padding-left: 18px;
+ }
+ .card-container{
+  position: relative;
+  width: 78%;
+ 
 }
 
-    
+.card{
+  padding-left: 15px;
+}
+} 
    
 
   /* tablet */
@@ -396,5 +497,30 @@ bottom: 20px;
   .banner-container {
     flex-wrap: wrap;
 }
+.banner-left {
+  background-size: contain;
+}
+.banner-img {
+ padding-left: 55px;
+ 
+}
+.third-prt-container {
+
+  flex-direction: column;
+  text-align: center;
+  padding-left: 75px;
   
+}
+.third-part-img {
+position: relative;
+right: 50px;
+}
+.fourth-part{
+  flex-direction: column;
+  padding-left: 28%;
+  }
+  .card-container{
+    position: relative;
+    width: 55%;
+}
   
