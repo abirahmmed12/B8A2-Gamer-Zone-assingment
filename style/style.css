@@ -99,7 +99,7 @@ background: rgba(11, 2, 35, 0.10)
  
     max-width: 1400px;
     margin: auto;
-    border: 3px solid red;
+   
   
     display: flex;
     gap: 5px;
@@ -199,7 +199,7 @@ bottom: 120px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     display: flex;
     
-    border: 2px solid red;
+   
     padding-right: -30px;
    
     
