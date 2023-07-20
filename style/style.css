@@ -277,9 +277,11 @@ bottom: 20px;
  
 }
 .fourth-part{
+  max-width: 1400px;
+  margin: auto;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 .cards-container{
   max-width: 1400px;
@@ -308,7 +310,7 @@ font-family: Work Sans;
 }
 .card-container{
   position: relative;
-  width: 18%;
+  width: 25%;
 }
 
 .card {
@@ -318,6 +320,7 @@ font-family: Work Sans;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  padding-left: 20px;
 }
 
 .hover-contnt{
@@ -346,6 +349,7 @@ font-family: Work Sans;
   color: rgb(255, 255, 255);
   font-size: 15px;
   padding: 10px 30px;
+ 
 }
 
 
